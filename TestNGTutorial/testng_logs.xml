@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Reports and Logs">
+<test name="Application test" preserve-order="false">
+
+	<classes>
+		<class name="testclasses.TestNG_ReportsAndLogs"></class>
+
+	</classes>
+</test>
+
+</suite>

@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Listener3 testSuite">
+	<listeners>
+		<listener class-name="listenerspackage.CustomListenerS"></listener>
+	</listeners>
+<test name="Application Test 1" >
+	<classes>
+		<class name="testclasses.TestNG_ListenerTest2"></class>
+	</classes>
+</test>
+
+	<test name="Application Test 2" >
+		<classes>
+			<class name="testclasses.TestNG_ListenerTest2"></class>
+		</classes>
+	</test>
+
+</suite>
