@@ -7,8 +7,16 @@ public class Human
     int heightInInches;
     String eyeColor;
 
+    public Human(String name, int age, int heightInInches, String eyeColor) {
+        this.name = name;
+        this.age = age;
+        this.heightInInches = heightInInches;
+        this.eyeColor = eyeColor;
+    }
+
     public Human()
     {
+
 
     }
 
