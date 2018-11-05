@@ -1,5 +1,7 @@
 package car_dealership;
 
+import java.util.Objects;
+
 public class Vehicle
 {
     private String vehicleBrand;
@@ -16,6 +18,23 @@ public class Vehicle
         this.vehicleYear = vehicleYear;
         this.vehicleColor = vehicleColor;
         this.price = price;
+    }
+
+    @Override
+    public boolean equals( Object o ) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Vehicle vehicle = (Vehicle) o;
+        return vehicleYear == vehicle.vehicleYear &&
+                Double.compare(vehicle.price, price) == 0 &&
+                Objects.equals(vehicleBrand, vehicle.vehicleBrand) &&
+                Objects.equals(vehicleModel, vehicle.vehicleModel) &&
+                Objects.equals(vehicleColor, vehicle.vehicleColor);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(vehicleBrand, vehicleModel, vehicleYear, vehicleColor, price);
     }
 
     @Override

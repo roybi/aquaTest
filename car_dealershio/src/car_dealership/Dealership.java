@@ -12,9 +12,9 @@ public class Dealership
         //cust1.setCashOnHand(12000);
 
 
-        Vehicle vec = new Vehicle("Honda","Accourd",2018,"Yellow",15000);
+        Vehicle vec = new Vehicle("BMW","M3",2000,"Blue",20000);
        // vec.setVehicleModel("Accoured");
-       // vec.setVehicleBrand("Honda");
+       // vec.setVehicleBrand("Honda");"BMW","M3",2000,"Blue",20000);
        // vec.setPrice(15000);
 
 
@@ -23,6 +23,10 @@ public class Dealership
 
         cust1.purchaseCar(vec,emp,false);
 
+        Vehicle car = new Vehicle("BMW","M3",2000,"Blue",20000);
+
+      boolean value = car.equals(vec);
+        System.out.println(value);
 
 /*
 
