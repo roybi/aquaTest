@@ -13,7 +13,7 @@ public class Bird extends Animel
 
     @Override
     public void move() {
-        System.out.println("The Birrd move- flying");
+        System.out.println("Flapping wings - abstract move for bird ");
     }
 
     public Bird(int age, String gender, int weight, boolean mammal, int numOfWings, String colorOfWings) {

@@ -11,7 +11,7 @@ public class FIsh extends Animel
     public void move()
     {
 
-        System.out.println("The fish is moving- swim");
+        System.out.println("The fish is swimming - abstract move");
     }
 
     public void swim()

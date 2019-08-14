@@ -2,7 +2,7 @@ package com.example.java;
 
 public interface Flyable
 {
-    //abstrach Method
+    //abstract Method
     public void fly();
 
 }

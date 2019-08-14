@@ -29,7 +29,7 @@ public class StringsPractice
 
         System.out.println("the third charchter from hello is - "+a.charAt(3));
 
-        System.out.println(a.charAt(-13));
+        System.out.println(a.charAt(4));
 
         //index of string
 

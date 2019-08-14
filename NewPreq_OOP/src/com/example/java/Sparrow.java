@@ -9,7 +9,7 @@ public class Sparrow extends Bird implements Flyable
     @Override
     public void fly()
     {
-        System.out.println("Sparroe fly very High");
+        System.out.println("Sparrow fly very High");
 
     }
 }
