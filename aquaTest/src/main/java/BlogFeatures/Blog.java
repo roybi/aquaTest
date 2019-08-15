@@ -13,6 +13,6 @@ public class Blog {
 
         //Add Comment
         ArrayList<Post> posts = new ArrayList<Post>();
-        posts.add();
+      //  posts.add();
     }
 }

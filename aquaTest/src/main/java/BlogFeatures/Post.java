@@ -19,13 +19,13 @@ public class Post {
 
         //Multiplie comments
         ArrayList<Comment> postComment = new ArrayList<Comment>();
-        postComment.add(addCommentToPost(strComment));
+      //  postComment.add(addCommentToPost(strComment));
     }
 
-    public String addCommentToPost(String strComment2) {
+    public void addCommentToPost(String strComment2) {
 
         //Add Comment
-        Comment newComment =new Comment();
+       // Comment newComment =new Comment();
 
     }
 }
