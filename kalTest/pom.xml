@@ -17,7 +17,7 @@
         <org.projectlombok.version>1.18.8</org.projectlombok.version>
         <com.fasterxml.jackson.core.version>2.9.5</com.fasterxml.jackson.core.version>
         <org.springframework.version>4.3.16.RELEASE</org.springframework.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
     </properties>
 
     <build>
